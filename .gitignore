@@ -1,8 +1,9 @@
 /data/
-/models/
+/models/*
+!models/*.pkl
+
 /__pycache__/
 /.venv/
 /.ipynb_checkpoints/
 /*.parquet
 *.log
-*.pkl
